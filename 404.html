@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.49">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/favicon-96x96.png"><title>Javacord</title><meta name="description" content="The Javacord website">
+    <link rel="modulepreload" href="/assets/app.c21d7f7f.js"><link rel="modulepreload" href="/assets/404.html.c29fe821.js"><link rel="modulepreload" href="/assets/404.html.7d858b3d.js"><link rel="prefetch" href="/assets/index.html.7b941969.js"><link rel="prefetch" href="/assets/imprint.html.d3d546aa.js"><link rel="prefetch" href="/assets/privacy-policy.html.ad130379.js"><link rel="prefetch" href="/assets/bot-lifecycle.html.fd0147d1.js"><link rel="prefetch" href="/assets/entity-cache.html.2049b788.js"><link rel="prefetch" href="/assets/performance-tweaks.html.d351008d.js"><link rel="prefetch" href="/assets/playing-audio.html.bd6f15f6.js"><link rel="prefetch" href="/assets/proxies.html.85240849.js"><link rel="prefetch" href="/assets/ratelimits.html.f62ab0b6.js"><link rel="prefetch" href="/assets/sharding.html.83961d39.js"><link rel="prefetch" href="/assets/creating-entities.html.1323029a.js"><link rel="prefetch" href="/assets/embeds.html.3da5dd79.js"><link rel="prefetch" href="/assets/emojis-and-reactions.html.0357d1df.js"><link rel="prefetch" href="/assets/gateway-intents.html.8f460787.js"><link rel="prefetch" href="/assets/glossary.html.595e411d.js"><link rel="prefetch" href="/assets/listeners.html.d99ed5d6.js"><link rel="prefetch" href="/assets/logger-config.html.cfc5601b.js"><link rel="prefetch" href="/assets/message-builder.html.a5891e9c.js"><link rel="prefetch" href="/assets/running.html.3f3c8bbc.js"><link rel="prefetch" href="/assets/completable-futures.html.9d67cf87.js"><link rel="prefetch" href="/assets/lambdas.html.38889fab.js"><link rel="prefetch" href="/assets/optionals.html.9556af07.js"><link rel="prefetch" href="/assets/index.html.577bc289.js"><link rel="prefetch" href="/assets/creating-a-bot-account.html.e9508f75.js"><link rel="prefetch" href="/assets/download-installation.html.9d856277.js"><link rel="prefetch" href="/assets/faq.html.c9d29b44.js"><link rel="prefetch" href="/assets/writing-your-first-bot.html.d43e4316.js"><link rel="prefetch" href="/assets/commands.html.6d424aa9.js"><link rel="prefetch" href="/assets/components.html.4877372c.js"><link rel="prefetch" href="/assets/responding.html.ad61eb75.js"><link rel="prefetch" href="/assets/eclipse-maven.html.22209dae.js"><link rel="prefetch" href="/assets/intellij-gradle.html.d1102488.js"><link rel="prefetch" href="/assets/intellij-maven.html.5cf84abd.js"><link rel="prefetch" href="/assets/index.html.ebd573b7.js"><link rel="prefetch" href="/assets/imprint.html.2ed56426.js"><link rel="prefetch" href="/assets/privacy-policy.html.3b91dca7.js"><link rel="prefetch" href="/assets/bot-lifecycle.html.d5476551.js"><link rel="prefetch" href="/assets/entity-cache.html.98d636f4.js"><link rel="prefetch" href="/assets/performance-tweaks.html.3856c101.js"><link rel="prefetch" href="/assets/playing-audio.html.e33b8c42.js"><link rel="prefetch" href="/assets/proxies.html.948baf4f.js"><link rel="prefetch" href="/assets/ratelimits.html.dd284b37.js"><link rel="prefetch" href="/assets/sharding.html.86e7f2b6.js"><link rel="prefetch" href="/assets/creating-entities.html.53bd3c54.js"><link rel="prefetch" href="/assets/embeds.html.779ad092.js"><link rel="prefetch" href="/assets/emojis-and-reactions.html.f276c81d.js"><link rel="prefetch" href="/assets/gateway-intents.html.652ad30b.js"><link rel="prefetch" href="/assets/glossary.html.286d68f9.js"><link rel="prefetch" href="/assets/listeners.html.a4ed7243.js"><link rel="prefetch" href="/assets/logger-config.html.3f974e36.js"><link rel="prefetch" href="/assets/message-builder.html.a33112da.js"><link rel="prefetch" href="/assets/running.html.e854ec2e.js"><link rel="prefetch" href="/assets/completable-futures.html.6deae462.js"><link rel="prefetch" href="/assets/lambdas.html.e94caada.js"><link rel="prefetch" href="/assets/optionals.html.c0a6ce5b.js"><link rel="prefetch" href="/assets/index.html.7c4675f2.js"><link rel="prefetch" href="/assets/creating-a-bot-account.html.4ba85b48.js"><link rel="prefetch" href="/assets/download-installation.html.acd914da.js"><link rel="prefetch" href="/assets/faq.html.c359a1b6.js"><link rel="prefetch" href="/assets/writing-your-first-bot.html.627b8662.js"><link rel="prefetch" href="/assets/commands.html.6a479cb2.js"><link rel="prefetch" href="/assets/components.html.a807c1b6.js"><link rel="prefetch" href="/assets/responding.html.9da1147c.js"><link rel="prefetch" href="/assets/eclipse-maven.html.b69b357d.js"><link rel="prefetch" href="/assets/intellij-gradle.html.1e2fd765.js"><link rel="prefetch" href="/assets/intellij-maven.html.2ccf2882.js"><link rel="prefetch" href="/assets/404.e10ce54f.js"><link rel="prefetch" href="/assets/Layout.739dae63.js"><link rel="prefetch" href="/assets/LatestVersion.0070279b.js">
+    <link rel="stylesheet" href="/assets/style.18d74fae.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>Looks like we&#39;ve got some broken links.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.c21d7f7f.js" defer></script>
+  </body>
+</html>
